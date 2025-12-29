@@ -78,7 +78,7 @@ SQL was used to:
 -Calculate KPIs:
    -Total revenue per restaurant
    -Most loyal customers
-   -Average delivery time
+   -Average delivery time by restaurant
    -Most popular dishes
 -Prepare clean datasets for analytics and ML
 SQL queries are available in the /sql folder.
@@ -100,22 +100,26 @@ SQL queries are available in the /sql folder.
 Feature importance analysis was performed to explain business impact.
 
 ## Tableau Dashboard
-An interactive dashboard was created to visualize:
-  -KPI cards (Fastest delivery, Top revenue, Loyal customer, Popular dish)
-  -Restaurant-wise revenue
-  -Customer loyalty
-  -Delivery time vs rating
-  -Monthly revenue trend
-  -Veg vs Non-Veg demand
-  -Cuisine-wise demand
- Tableau Public link: [(add your link here)](https://public.tableau.com/views/swiggy_17667065175410/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+An interactive Tableau dashboard was designed to visualize key operational and customer insights derived from SQL and Python analysis.
 
  ## Key Business Insights
-  -Higher-rated restaurants do not always deliver faster
-  -Delivery time varies significantly by restaurant and day
-  -Certain dishes drive repeat orders and loyalty
-  -Veg items dominate overall demand in this dataset
-  -Order amount has limited impact on delivery speed
+-Fastest Delivery Restaurant (Avg Delivery Time)
+-Highest Revenue Restaurant (Total Order Amount)
+-Most Loyal Customer (Order Frequency)
+-Most Popular Dish by Order Volume
+-Restaurant Revenue Comparison
+-Delivery Time vs Restaurant Rating Analysis
+-Monthly Order Trend
+-Cuisine-wise Order Distribution
+-Veg vs Non-Veg Demand Analysis
+
+ Tableau Public link: [(add your link here)](https://public.tableau.com/views/swiggy_17667065175410/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+  ## Business Insights:
+  -Faster delivery does not always correlate with higher customer ratings
+  -A small number of dishes contribute disproportionately to total orders
+  -Revenue concentration is skewed toward top restaurants
+  -Veg items dominate overall demand
 
   ## Conclusion
   This project demonstrates an end-to-end data analytics pipeline with real-world business relevance.
