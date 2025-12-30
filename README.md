@@ -1,4 +1,4 @@
-# Swiggy-Food-Delivery-Analytics-Delivery-Time-Prediction
+# Swiggy Food Delivery Analytics & Time Prediction
 
 ## Project Overview
 This project focuses on analyzing food delivery data to understand customer behavior, restaurant performance, and delivery efficiency.
